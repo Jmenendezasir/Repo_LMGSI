@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+div#container {
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5,1fr);
+    font-size: 20px;
+    grid-template-areas:
+        "cab"
+        "menuP"
+        "main"
+        "lateral"
+        "pie"
+}
+
+div#container header {
+    background-color: black;
+    grid-area: cab;
+}
+div#container nav {
+    background-color: red;
+    grid-area: menuP;
+}
+div#container main {
+    background-color: yellow;
+    grid-area: main;
+}
+div#container aside {
+    background-color: orange;
+    grid-area: lateral;
+}
+div#container footer {
+    background-color: green;
+    grid-area: pie;
+}

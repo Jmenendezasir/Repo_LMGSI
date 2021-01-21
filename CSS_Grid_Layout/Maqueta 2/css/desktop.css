@@ -1,0 +1,12 @@
+div#container {
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas:
+        "cab cab cab"
+        "menuP main lateral"
+        "pie pie lateral"
+}
+
+div#container aside {
+    display: block;
+}

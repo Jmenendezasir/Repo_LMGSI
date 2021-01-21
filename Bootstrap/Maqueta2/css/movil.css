@@ -1,0 +1,17 @@
+
+* {
+    border: 2px solid black;
+}
+header {
+    height: 150px;
+    background-color: aquamarine;
+}
+main {
+    min-height: 600px;
+    background-color: grey;
+}
+
+footer {
+    background-color: orange;
+    min-height: 200px;
+}
